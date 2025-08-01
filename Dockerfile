@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /whoami
 
 # Copy your app code and data
-COPY List_management.py .
+COPY list_management.py .
 COPY list.json .
 
 #OR
@@ -13,4 +13,4 @@ COPY list.json .
  #Copy . .
 
 # Run the app when container starts
-CMD ["python", "List_management.py"]
+CMD ["python", "list_management.py"]

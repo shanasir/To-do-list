@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /whoami
 
 # Copy your app code and data
-COPY list_management.py .
+COPY List_management.py .
 COPY list.json .
 
 #OR

@@ -13,4 +13,4 @@ COPY list.json .
  #Copy . .
 
 # Run the app when container starts
-CMD ["python", "list_management.py"]
+CMD ["python", "List_management.py"]
